@@ -10,7 +10,7 @@
   --border: #bababa;
 
   --main-color: #da0000;
-  --main-color2: #ffc683;
+  --main-color2: #7c0000;
   --main-color3: #f6f1eb;
 }
 
@@ -124,7 +124,8 @@ header nav {
 
 .util-menu {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 2rem;
 }
 
 .join {
@@ -159,10 +160,11 @@ header nav {
   align-items: center;
 }
 
-.mobile-btn a {
+.mobile-btn {
   display: none;
   width: 3.2rem;
   height: 0.7rem;
+  margin-left: 2rem;
   background: url(../img/more-icon.svg) no-repeat 50% / contain;
 }
 /* e.header */
@@ -309,7 +311,7 @@ address {
     gap: 5.5rem;
   }
 
-  .mobile-btn a {
+  .mobile-btn {
     display: block;
   }
 }
@@ -342,7 +344,8 @@ address {
     width: 90%;
   }
 
-  .util-menu {
+  .join,
+  .login {
     display: none;
   }
 }

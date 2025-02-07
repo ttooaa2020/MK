@@ -277,7 +277,7 @@ header nav {
   padding-left: 0;
 }
 
-.foot-nav li:nth-child(4)::after {
+.foot-nav li:nth-child(5)::after {
   content: "";
   display: none;
   padding-right: 0;

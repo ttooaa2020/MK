@@ -6,6 +6,12 @@
   /* border: 1px solid #000; */
 }
 
+.about-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rem;
+}
+
 .about-con li {
   display: flex;
   flex-wrap: wrap;
